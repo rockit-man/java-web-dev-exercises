@@ -3,19 +3,18 @@ package org.launchcode.java.demos.lsn7interfaces;
 import java.util.ArrayList;
 
 public abstract class Ingredient {
+
     private String name;
     private double cost;
     private ArrayList<String> allergens;
 
-    public Ingredient(String aName, double aCost, ArrayList<String> someAllergens){
+    public Ingredient(String aName, double aCost, ArrayList<String> someAllergens) {
         name = aName;
         cost = aCost;
         allergens = someAllergens;
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
     public void setName(String name) {
         this.name = name;
@@ -43,4 +42,5 @@ public abstract class Ingredient {
                 "Cost: $" + cost + "\n" +
                 "Allergens: " + allergens + "\n";
     }
+
 }

@@ -31,6 +31,7 @@ public class ArrayListGradebook {
             grades.add(grade);
         }
 
+
         // Print class roster
         System.out.println("\nClass roster:");
         double sum = 0.0;
